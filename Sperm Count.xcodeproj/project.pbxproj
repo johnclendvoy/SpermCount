@@ -1,0 +1,507 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		52D8A7681CEE3FF000828053 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52D8A7671CEE3FF000828053 /* AppDelegate.swift */; };
+		52D8A76A1CEE3FF000828053 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52D8A7691CEE3FF000828053 /* ViewController.swift */; };
+		52D8A76D1CEE3FF000828053 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52D8A76B1CEE3FF000828053 /* Main.storyboard */; };
+		52D8A76F1CEE3FF000828053 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52D8A76E1CEE3FF000828053 /* Assets.xcassets */; };
+		52D8A7721CEE3FF000828053 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52D8A7701CEE3FF000828053 /* LaunchScreen.storyboard */; };
+		52D8A77D1CEE3FF000828053 /* Sperm_CountTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52D8A77C1CEE3FF000828053 /* Sperm_CountTests.swift */; };
+		52D8A7881CEE3FF000828053 /* Sperm_CountUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52D8A7871CEE3FF000828053 /* Sperm_CountUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		52D8A7791CEE3FF000828053 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 52D8A75C1CEE3FF000828053 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 52D8A7631CEE3FF000828053;
+			remoteInfo = "Sperm Count";
+		};
+		52D8A7841CEE3FF000828053 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 52D8A75C1CEE3FF000828053 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 52D8A7631CEE3FF000828053;
+			remoteInfo = "Sperm Count";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		52D8A7641CEE3FF000828053 /* Sperm Count.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Sperm Count.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		52D8A7671CEE3FF000828053 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		52D8A7691CEE3FF000828053 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		52D8A76C1CEE3FF000828053 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		52D8A76E1CEE3FF000828053 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		52D8A7711CEE3FF000828053 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		52D8A7731CEE3FF000828053 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		52D8A7781CEE3FF000828053 /* Sperm CountTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Sperm CountTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		52D8A77C1CEE3FF000828053 /* Sperm_CountTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sperm_CountTests.swift; sourceTree = "<group>"; };
+		52D8A77E1CEE3FF000828053 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		52D8A7831CEE3FF000828053 /* Sperm CountUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Sperm CountUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		52D8A7871CEE3FF000828053 /* Sperm_CountUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sperm_CountUITests.swift; sourceTree = "<group>"; };
+		52D8A7891CEE3FF000828053 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		52D8A7611CEE3FF000828053 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52D8A7751CEE3FF000828053 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52D8A7801CEE3FF000828053 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		52D8A75B1CEE3FF000828053 = {
+			isa = PBXGroup;
+			children = (
+				52D8A7661CEE3FF000828053 /* Sperm Count */,
+				52D8A77B1CEE3FF000828053 /* Sperm CountTests */,
+				52D8A7861CEE3FF000828053 /* Sperm CountUITests */,
+				52D8A7651CEE3FF000828053 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		52D8A7651CEE3FF000828053 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				52D8A7641CEE3FF000828053 /* Sperm Count.app */,
+				52D8A7781CEE3FF000828053 /* Sperm CountTests.xctest */,
+				52D8A7831CEE3FF000828053 /* Sperm CountUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		52D8A7661CEE3FF000828053 /* Sperm Count */ = {
+			isa = PBXGroup;
+			children = (
+				52D8A7671CEE3FF000828053 /* AppDelegate.swift */,
+				52D8A7691CEE3FF000828053 /* ViewController.swift */,
+				52D8A76B1CEE3FF000828053 /* Main.storyboard */,
+				52D8A76E1CEE3FF000828053 /* Assets.xcassets */,
+				52D8A7701CEE3FF000828053 /* LaunchScreen.storyboard */,
+				52D8A7731CEE3FF000828053 /* Info.plist */,
+			);
+			path = "Sperm Count";
+			sourceTree = "<group>";
+		};
+		52D8A77B1CEE3FF000828053 /* Sperm CountTests */ = {
+			isa = PBXGroup;
+			children = (
+				52D8A77C1CEE3FF000828053 /* Sperm_CountTests.swift */,
+				52D8A77E1CEE3FF000828053 /* Info.plist */,
+			);
+			path = "Sperm CountTests";
+			sourceTree = "<group>";
+		};
+		52D8A7861CEE3FF000828053 /* Sperm CountUITests */ = {
+			isa = PBXGroup;
+			children = (
+				52D8A7871CEE3FF000828053 /* Sperm_CountUITests.swift */,
+				52D8A7891CEE3FF000828053 /* Info.plist */,
+			);
+			path = "Sperm CountUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		52D8A7631CEE3FF000828053 /* Sperm Count */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 52D8A78C1CEE3FF000828053 /* Build configuration list for PBXNativeTarget "Sperm Count" */;
+			buildPhases = (
+				52D8A7601CEE3FF000828053 /* Sources */,
+				52D8A7611CEE3FF000828053 /* Frameworks */,
+				52D8A7621CEE3FF000828053 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Sperm Count";
+			productName = "Sperm Count";
+			productReference = 52D8A7641CEE3FF000828053 /* Sperm Count.app */;
+			productType = "com.apple.product-type.application";
+		};
+		52D8A7771CEE3FF000828053 /* Sperm CountTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 52D8A78F1CEE3FF000828053 /* Build configuration list for PBXNativeTarget "Sperm CountTests" */;
+			buildPhases = (
+				52D8A7741CEE3FF000828053 /* Sources */,
+				52D8A7751CEE3FF000828053 /* Frameworks */,
+				52D8A7761CEE3FF000828053 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				52D8A77A1CEE3FF000828053 /* PBXTargetDependency */,
+			);
+			name = "Sperm CountTests";
+			productName = "Sperm CountTests";
+			productReference = 52D8A7781CEE3FF000828053 /* Sperm CountTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		52D8A7821CEE3FF000828053 /* Sperm CountUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 52D8A7921CEE3FF000828053 /* Build configuration list for PBXNativeTarget "Sperm CountUITests" */;
+			buildPhases = (
+				52D8A77F1CEE3FF000828053 /* Sources */,
+				52D8A7801CEE3FF000828053 /* Frameworks */,
+				52D8A7811CEE3FF000828053 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				52D8A7851CEE3FF000828053 /* PBXTargetDependency */,
+			);
+			name = "Sperm CountUITests";
+			productName = "Sperm CountUITests";
+			productReference = 52D8A7831CEE3FF000828053 /* Sperm CountUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		52D8A75C1CEE3FF000828053 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "John C. Lendvoy";
+				TargetAttributes = {
+					52D8A7631CEE3FF000828053 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					52D8A7771CEE3FF000828053 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 52D8A7631CEE3FF000828053;
+					};
+					52D8A7821CEE3FF000828053 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 52D8A7631CEE3FF000828053;
+					};
+				};
+			};
+			buildConfigurationList = 52D8A75F1CEE3FF000828053 /* Build configuration list for PBXProject "Sperm Count" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 52D8A75B1CEE3FF000828053;
+			productRefGroup = 52D8A7651CEE3FF000828053 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				52D8A7631CEE3FF000828053 /* Sperm Count */,
+				52D8A7771CEE3FF000828053 /* Sperm CountTests */,
+				52D8A7821CEE3FF000828053 /* Sperm CountUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		52D8A7621CEE3FF000828053 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52D8A7721CEE3FF000828053 /* LaunchScreen.storyboard in Resources */,
+				52D8A76F1CEE3FF000828053 /* Assets.xcassets in Resources */,
+				52D8A76D1CEE3FF000828053 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52D8A7761CEE3FF000828053 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52D8A7811CEE3FF000828053 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		52D8A7601CEE3FF000828053 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52D8A76A1CEE3FF000828053 /* ViewController.swift in Sources */,
+				52D8A7681CEE3FF000828053 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52D8A7741CEE3FF000828053 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52D8A77D1CEE3FF000828053 /* Sperm_CountTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52D8A77F1CEE3FF000828053 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52D8A7881CEE3FF000828053 /* Sperm_CountUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		52D8A77A1CEE3FF000828053 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 52D8A7631CEE3FF000828053 /* Sperm Count */;
+			targetProxy = 52D8A7791CEE3FF000828053 /* PBXContainerItemProxy */;
+		};
+		52D8A7851CEE3FF000828053 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 52D8A7631CEE3FF000828053 /* Sperm Count */;
+			targetProxy = 52D8A7841CEE3FF000828053 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		52D8A76B1CEE3FF000828053 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				52D8A76C1CEE3FF000828053 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		52D8A7701CEE3FF000828053 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				52D8A7711CEE3FF000828053 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		52D8A78A1CEE3FF000828053 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		52D8A78B1CEE3FF000828053 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		52D8A78D1CEE3FF000828053 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Sperm Count/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "johnclendvoy.Sperm-Count";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		52D8A78E1CEE3FF000828053 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Sperm Count/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "johnclendvoy.Sperm-Count";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		52D8A7901CEE3FF000828053 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Sperm CountTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "johnclendvoy.Sperm-CountTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Sperm Count.app/Sperm Count";
+			};
+			name = Debug;
+		};
+		52D8A7911CEE3FF000828053 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Sperm CountTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "johnclendvoy.Sperm-CountTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Sperm Count.app/Sperm Count";
+			};
+			name = Release;
+		};
+		52D8A7931CEE3FF000828053 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Sperm CountUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "johnclendvoy.Sperm-CountUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Sperm Count";
+			};
+			name = Debug;
+		};
+		52D8A7941CEE3FF000828053 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Sperm CountUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "johnclendvoy.Sperm-CountUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Sperm Count";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		52D8A75F1CEE3FF000828053 /* Build configuration list for PBXProject "Sperm Count" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52D8A78A1CEE3FF000828053 /* Debug */,
+				52D8A78B1CEE3FF000828053 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		52D8A78C1CEE3FF000828053 /* Build configuration list for PBXNativeTarget "Sperm Count" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52D8A78D1CEE3FF000828053 /* Debug */,
+				52D8A78E1CEE3FF000828053 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		52D8A78F1CEE3FF000828053 /* Build configuration list for PBXNativeTarget "Sperm CountTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52D8A7901CEE3FF000828053 /* Debug */,
+				52D8A7911CEE3FF000828053 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		52D8A7921CEE3FF000828053 /* Build configuration list for PBXNativeTarget "Sperm CountUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52D8A7931CEE3FF000828053 /* Debug */,
+				52D8A7941CEE3FF000828053 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 52D8A75C1CEE3FF000828053 /* Project object */;
+}
